@@ -3,9 +3,9 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-lg">
+            <div className="navbar bg-base-100 shadow-lg lg:px-20">
   <div className="flex-1">
-    <a href= " "  className="btn btn-ghost normal-case text-xl">daisyUI</a>
+    <a href= " "  className="btn btn-ghost normal-case text-xl">Gun Store </a>
   </div>
   <div className="flex-none">
     <div className="dropdown dropdown-end">
@@ -24,6 +24,12 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+
+
+    </div>
+
+    <div className="form-control ml-2 mr-2 hidden lg:block">
+      <input type="text" placeholder="Search" className="input input-bordered" />
     </div>
     <div className="dropdown dropdown-end">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
